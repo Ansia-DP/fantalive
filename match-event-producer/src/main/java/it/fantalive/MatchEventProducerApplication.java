@@ -1,4 +1,4 @@
-package it.fantalive.match_event_producer;
+package it.fantalive;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
