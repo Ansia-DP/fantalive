@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="match-event-producer" />
+        <module name="league-service" />
         <module name="scoring-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="league-service" options="-parameters" />
       <module name="match-event-producer" options="-parameters" />
       <module name="scoring-service" options="-parameters" />
     </option>

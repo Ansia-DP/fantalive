@@ -10,7 +10,7 @@ spring:
       value-deserializer: org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
       properties:
         spring.deserializer.value.delegate.class: org.springframework.kafka.support.serializer.JacksonJsonDeserializer
-        spring.json.value.default.type: it.fantalive.scoring_service.event.GoalScored
+        spring.json.value.default.type: it.fantalive.match_event_producer.event.MatchEvent
         spring.json.trusted.packages: it.fantalive.*
   mongodb:
     uri: mongodb://localhost:27017/fantalive
