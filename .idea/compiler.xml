@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="match-event-producer" />
         <module name="league-service" />
+        <module name="match-event-producer" />
         <module name="scoring-service" />
       </profile>
     </annotationProcessing>

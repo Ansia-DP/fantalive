@@ -1,3 +1,18 @@
 spring:
   application:
     name: league-service
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JacksonJsonSerializer
+      properties:
+        spring.json.add.type.headers: false
+        max.block.ms: 5000
+  mongodb:
+    uri: mongodb://localhost:27017/fantalive_league
+  mvc:
+    problemdetails:
+      enabled: true
+server:
+  port: 8082

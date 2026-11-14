@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/fantalive.iml" filepath="$PROJECT_DIR$/fantalive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/fantalive.iml" filepath="$PROJECT_DIR$/.idea/fantalive.iml" />
     </modules>
   </component>
 </project>

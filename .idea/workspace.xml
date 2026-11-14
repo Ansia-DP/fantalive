@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b4376f1e-ac83-49b9-b2eb-865ed7e1c314" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/fantalive.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league-service/src/main/java/it/fantalive/league_service/exception/LeagueNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league-service/src/main/java/it/fantalive/league_service/exception/RuleViolationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league-service/src/main/java/it/fantalive/league_service/model/FantaTeam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league-service/src/main/java/it/fantalive/league_service/model/League.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league-service/src/main/java/it/fantalive/league_service/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league-service/src/main/java/it/fantalive/league_service/model/RosterPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league-service/src/main/java/it/fantalive/league_service/repository/LeagueRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league-service/src/main/java/it/fantalive/league_service/service/LeagueService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league-service/src/main/java/it/fantalive/league_service/web/ApiExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league-service/src/main/java/it/fantalive/league_service/web/LeagueController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/league-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/league-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/league-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/league-service/src/main/resources/application.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="3M53qgF76Cu4wft9MWmzXZQLjoP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.league-service [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.match-event-producer [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.scoring-service [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.LeagueServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MatchEventProducerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ScoringServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  }
+}</component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="LeagueServiceApplication" value="STOPPED" />
+              <entry key="MatchEventProducerApplication" value="STOPPED" />
+              <entry key="ScoringServiceApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MatchEventProducerApplication">
+    <configuration name="LeagueServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="league-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="it.fantalive.league_service.LeagueServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.fantalive.league_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatchEventProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="match-event-producer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="it.fantalive.match_event_producer.MatchEventProducerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.fantalive.match_event_producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScoringServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="scoring-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="it.fantalive.match_event_producer.ScoringServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.fantalive.match_event_producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ScoringServiceApplication" />
+        <item itemvalue="Spring Boot.MatchEventProducerApplication" />
+        <item itemvalue="Spring Boot.LeagueServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4376f1e-ac83-49b9-b2eb-865ed7e1c314" name="Changes" comment="" />
+      <created>1794626795766</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1794626795766</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
