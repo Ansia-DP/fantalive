@@ -5,16 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4376f1e-ac83-49b9-b2eb-865ed7e1c314" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/league-service/src/main/java/it/fantalive/league_service/config/KafkaTopicConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/league-service/src/main/java/it/fantalive/league_service/event/LineupSubmitted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/league-service/src/main/java/it/fantalive/league_service/exception/EventPublishingException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/league-service/src/main/java/it/fantalive/league_service/exception/NotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/league-service/src/main/java/it/fantalive/league_service/model/Lineup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/league-service/src/main/java/it/fantalive/league_service/repository/LineupRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/league-service/src/main/java/it/fantalive/league_service/service/LineupService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/league-service/src/main/java/it/fantalive/league_service/web/LineupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/scoring_service/config/KafkaTopicConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/scoring_service/event/PlayerScoreUpdated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/scoring_service/service/ScorePublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/league-service/src/main/java/it/fantalive/league_service/web/ApiExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/league-service/src/main/java/it/fantalive/league_service/web/ApiExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/match_event_producer/MatchEventProducerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/scoring_service/MatchEventProducerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/match_event_producer/config/KafkaTopicConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/scoring_service/config/KafkaTopicConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/match_event_producer/event/AssistMade.java" beforeDir="false" afterPath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/scoring_service/event/AssistMade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/match_event_producer/event/CardGiven.java" beforeDir="false" afterPath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/scoring_service/event/CardGiven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/match_event_producer/event/GoalScored.java" beforeDir="false" afterPath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/scoring_service/event/GoalScored.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/match_event_producer/event/MatchEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/scoring_service/event/MatchEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/match_event_producer/event/PlayerRated.java" beforeDir="false" afterPath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/scoring_service/event/PlayerRated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/match_event_producer/service/MatchEventPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/scoring_service/service/MatchEventPublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/match_event_producer/service/MatchSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/scoring_service/service/MatchSimulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/match_event_producer/web/SimulationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/scoring_service/web/SimulationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/match-event-producer/src/test/java/it/fantalive/match_event_producer/MatchEventProducerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/match-event-producer/src/test/java/it/fantalive/scoring_service/MatchEventProducerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/match_event_producer/ScoringServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/scoring_service/ScoringServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/match_event_producer/event/AssistMade.java" beforeDir="false" afterPath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/scoring_service/event/AssistMade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/match_event_producer/event/CardGiven.java" beforeDir="false" afterPath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/scoring_service/event/CardGiven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/match_event_producer/event/GoalScored.java" beforeDir="false" afterPath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/scoring_service/event/GoalScored.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/match_event_producer/event/MatchEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/scoring_service/event/MatchEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/match_event_producer/event/PlayerRated.java" beforeDir="false" afterPath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/scoring_service/event/PlayerRated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/match_event_producer/listener/MatchEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/scoring_service/listener/MatchEventListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/match_event_producer/model/PlayerMatchScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/scoring_service/model/PlayerMatchScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/match_event_producer/repository/PlayerMatchScoreRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/scoring_service/repository/PlayerMatchScoreRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/match_event_producer/service/ScoringService.java" beforeDir="false" afterPath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/scoring_service/service/ScoringService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoring-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/scoring-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoring-service/src/test/java/it/fantalive/match_event_producer/scoring_service/ScoringServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/scoring-service/src/test/java/it/fantalive/scoring_service/scoring_service/ScoringServiceApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,34 +68,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.league-service [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.match-event-producer [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.scoring-service [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.LeagueServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.MatchEventProducerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ScoringServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.league-service [clean,install].executor": "Run",
+    "Maven.match-event-producer [clean,install].executor": "Run",
+    "Maven.scoring-service [clean,install].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.LeagueServiceApplication.executor": "Run",
+    "Spring Boot.MatchEventProducerApplication.executor": "Run",
+    "Spring Boot.ScoringServiceApplication.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.jshint": "",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
-}</component>
+}]]></component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -117,10 +137,10 @@
     </configuration>
     <configuration name="MatchEventProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="match-event-producer" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="it.fantalive.match_event_producer.MatchEventProducerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="it.fantalive.scoring_service.MatchEventProducerApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.fantalive.match_event_producer.*" />
+          <option name="PATTERN" value="it.fantalive.scoring_service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,10 +150,10 @@
     </configuration>
     <configuration name="ScoringServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="scoring-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="it.fantalive.match_event_producer.ScoringServiceApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="it.fantalive.scoring_service.ScoringServiceApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.fantalive.match_event_producer.*" />
+          <option name="PATTERN" value="it.fantalive.scoring_service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
