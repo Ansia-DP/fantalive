@@ -60,9 +60,11 @@
     "Spring Boot.LeagueServiceApplication.executor": "Run",
     "Spring Boot.MatchEventProducerApplication.executor": "Run",
     "Spring Boot.ScoringServiceApplication.executor": "Run",
+    "Spring Boot.StandingsServiceApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ricca/Documents/GitHub/fantalive",
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.jshint": "",
     "nodejs_package_manager_path": "npm",
@@ -73,6 +75,14 @@
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ricca\Documents\GitHub\fantalive" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ricca\Documents\GitHub\fantalive" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -90,6 +100,7 @@
               <entry key="LeagueServiceApplication" value="STOPPED" />
               <entry key="MatchEventProducerApplication" value="STOPPED" />
               <entry key="ScoringServiceApplication" value="STOPPED" />
+              <entry key="StandingsServiceApplication" value="STOPPED" />
             </map>
           </value>
         </entry>
