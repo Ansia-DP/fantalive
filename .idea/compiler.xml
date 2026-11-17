@@ -8,8 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="league-service" />
-        <module name="match-event-producer" />
         <module name="scoring-service" />
+        <module name="match-event-producer" />
+        <module name="standings-service" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,6 +19,7 @@
       <module name="league-service" options="-parameters" />
       <module name="match-event-producer" options="-parameters" />
       <module name="scoring-service" options="-parameters" />
+      <module name="standings-service" options="-parameters" />
     </option>
   </component>
 </project>

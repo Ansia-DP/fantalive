@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/scoring-service/pom.xml" />
         <option value="$PROJECT_DIR$/league-service/pom.xml" />
         <option value="$PROJECT_DIR$/match-event-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/standings-service/standings-service/pom.xml" />
       </list>
     </option>
   </component>

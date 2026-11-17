@@ -5,34 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4376f1e-ac83-49b9-b2eb-865ed7e1c314" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/scoring_service/config/KafkaTopicConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/scoring_service/event/PlayerScoreUpdated.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/scoring_service/service/ScorePublisher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/match_event_producer/MatchEventProducerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/scoring_service/MatchEventProducerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/match_event_producer/config/KafkaTopicConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/scoring_service/config/KafkaTopicConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/match_event_producer/event/AssistMade.java" beforeDir="false" afterPath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/scoring_service/event/AssistMade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/match_event_producer/event/CardGiven.java" beforeDir="false" afterPath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/scoring_service/event/CardGiven.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/match_event_producer/event/GoalScored.java" beforeDir="false" afterPath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/scoring_service/event/GoalScored.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/match_event_producer/event/MatchEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/scoring_service/event/MatchEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/match_event_producer/event/PlayerRated.java" beforeDir="false" afterPath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/scoring_service/event/PlayerRated.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/match_event_producer/service/MatchEventPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/scoring_service/service/MatchEventPublisher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/match_event_producer/service/MatchSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/scoring_service/service/MatchSimulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/match_event_producer/web/SimulationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/match-event-producer/src/main/java/it/fantalive/scoring_service/web/SimulationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/match-event-producer/src/test/java/it/fantalive/match_event_producer/MatchEventProducerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/match-event-producer/src/test/java/it/fantalive/scoring_service/MatchEventProducerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/match_event_producer/ScoringServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/scoring_service/ScoringServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/match_event_producer/event/AssistMade.java" beforeDir="false" afterPath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/scoring_service/event/AssistMade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/match_event_producer/event/CardGiven.java" beforeDir="false" afterPath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/scoring_service/event/CardGiven.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/match_event_producer/event/GoalScored.java" beforeDir="false" afterPath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/scoring_service/event/GoalScored.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/match_event_producer/event/MatchEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/scoring_service/event/MatchEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/match_event_producer/event/PlayerRated.java" beforeDir="false" afterPath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/scoring_service/event/PlayerRated.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/match_event_producer/listener/MatchEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/scoring_service/listener/MatchEventListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/match_event_producer/model/PlayerMatchScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/scoring_service/model/PlayerMatchScore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/match_event_producer/repository/PlayerMatchScoreRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/scoring_service/repository/PlayerMatchScoreRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/match_event_producer/service/ScoringService.java" beforeDir="false" afterPath="$PROJECT_DIR$/scoring-service/src/main/java/it/fantalive/scoring_service/service/ScoringService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoring-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/scoring-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoring-service/src/test/java/it/fantalive/match_event_producer/scoring_service/ScoringServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/scoring-service/src/test/java/it/fantalive/scoring_service/scoring_service/ScoringServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/standings-service/standings-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/standings-service/standings-service/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +47,7 @@
     "Maven.league-service [clean,install].executor": "Run",
     "Maven.match-event-producer [clean,install].executor": "Run",
     "Maven.scoring-service [clean,install].executor": "Run",
+    "Maven.standings-service [clean,install].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -157,6 +132,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StandingsServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="standings-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="it.fantalive.standings_service.StandingsServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
