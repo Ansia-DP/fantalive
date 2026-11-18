@@ -44,6 +44,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.LeagueTest.executor": "Run",
+    "JUnit.LineupTest.executor": "Run",
+    "Maven.fantalive [clean,install].executor": "Run",
     "Maven.league-service [clean,install].executor": "Run",
     "Maven.match-event-producer [clean,install].executor": "Run",
     "Maven.scoring-service [clean,install].executor": "Run",
@@ -82,6 +85,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ricca\Documents\GitHub\fantalive" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="it.fantalive.league_service.model" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -107,7 +113,37 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MatchEventProducerApplication">
+  <component name="RunManager" selected="JUnit.LeagueTest">
+    <configuration name="LeagueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="league-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.fantalive.league_service.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="it.fantalive.league_service.model" />
+      <option name="MAIN_CLASS_NAME" value="it.fantalive.league_service.model.LeagueTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LineupTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="league-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.fantalive.league_service.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="it.fantalive.league_service.model" />
+      <option name="MAIN_CLASS_NAME" value="it.fantalive.league_service.model.LineupTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LeagueServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="league-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="it.fantalive.league_service.LeagueServiceApplication" />
@@ -156,6 +192,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LeagueTest" />
+        <item itemvalue="JUnit.LineupTest" />
         <item itemvalue="Spring Boot.ScoringServiceApplication" />
         <item itemvalue="Spring Boot.MatchEventProducerApplication" />
         <item itemvalue="Spring Boot.LeagueServiceApplication" />
