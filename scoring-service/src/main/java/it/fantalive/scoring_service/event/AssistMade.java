@@ -1,4 +1,4 @@
-package it.fantalive.scoring_service.event;
+package it.fantalive.match_event_producer.event;
 
 import java.time.Instant;
 

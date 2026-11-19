@@ -46,6 +46,8 @@
   "keyToString": {
     "JUnit.LeagueTest.executor": "Run",
     "JUnit.LineupTest.executor": "Run",
+    "JUnit.MatchSimulatorTest.executor": "Run",
+    "JUnit.ScoringRulesTest.executor": "Run",
     "Maven.fantalive [clean,install].executor": "Run",
     "Maven.league-service [clean,install].executor": "Run",
     "Maven.match-event-producer [clean,install].executor": "Run",
@@ -105,7 +107,7 @@
             <map>
               <entry key="LeagueServiceApplication" value="STOPPED" />
               <entry key="MatchEventProducerApplication" value="STOPPED" />
-              <entry key="ScoringServiceApplication" value="STOPPED" />
+              <entry key="ScoringServiceApplication" value="FAILED" />
               <entry key="StandingsServiceApplication" value="STOPPED" />
             </map>
           </value>
@@ -113,32 +115,32 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LeagueTest">
-    <configuration name="LeagueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="league-service" />
+  <component name="RunManager" selected="JUnit.MatchSimulatorTest">
+    <configuration name="MatchSimulatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="match-event-producer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.fantalive.league_service.model.*" />
+          <option name="PATTERN" value="it.fantalive.match_event_producer.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="it.fantalive.league_service.model" />
-      <option name="MAIN_CLASS_NAME" value="it.fantalive.league_service.model.LeagueTest" />
+      <option name="PACKAGE_NAME" value="it.fantalive.match_event_producer.service" />
+      <option name="MAIN_CLASS_NAME" value="it.fantalive.match_event_producer.service.MatchSimulatorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LineupTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="league-service" />
+    <configuration name="ScoringRulesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="scoring-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.fantalive.league_service.model.*" />
+          <option name="PATTERN" value="it.fantalive.match_event_producer.domain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="it.fantalive.league_service.model" />
-      <option name="MAIN_CLASS_NAME" value="it.fantalive.league_service.model.LineupTest" />
+      <option name="PACKAGE_NAME" value="it.fantalive.scoring_service.domain" />
+      <option name="MAIN_CLASS_NAME" value="it.fantalive.match_event_producer.domain.ScoringRulesTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,10 +161,10 @@
     </configuration>
     <configuration name="MatchEventProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="match-event-producer" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="it.fantalive.scoring_service.MatchEventProducerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="it.fantalive.match_event_producer.MatchEventProducerApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.fantalive.scoring_service.*" />
+          <option name="PATTERN" value="it.fantalive.match_event_producer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,10 +174,10 @@
     </configuration>
     <configuration name="ScoringServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="scoring-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="it.fantalive.scoring_service.ScoringServiceApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="it.fantalive.match_event_producer.ScoringServiceApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.fantalive.scoring_service.*" />
+          <option name="PATTERN" value="it.fantalive.match_event_producer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LeagueTest" />
-        <item itemvalue="JUnit.LineupTest" />
+        <item itemvalue="JUnit.MatchSimulatorTest" />
         <item itemvalue="Spring Boot.ScoringServiceApplication" />
         <item itemvalue="Spring Boot.MatchEventProducerApplication" />
         <item itemvalue="Spring Boot.LeagueServiceApplication" />
+        <item itemvalue="JUnit.ScoringRulesTest" />
       </list>
     </recent_temporary>
   </component>

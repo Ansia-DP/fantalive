@@ -1,6 +1,6 @@
-package it.fantalive.scoring_service.service;
+package it.fantalive.match_event_producer.service;
 
-import it.fantalive.scoring_service.event.*;
+import it.fantalive.match_event_producer.event.*;
 import org.springframework.stereotype.Service;
 
 import java.time.Instant;
@@ -21,6 +21,12 @@ public class MatchSimulator {
     }
 
     public List<MatchEvent> simulate(String matchId, int matchday, List<Player> players) {
+        if (players == null || players.isEmpty()) {
+            throw new IllegalArgumentException("Serve almeno un giocatore per simulare la partita");
+        }
+        if (matchday < 1 || matchday > 38) {
+            throw new IllegalArgumentException("La giornata deve essere tra 1 e 38");
+        }
         var rnd = ThreadLocalRandom.current();
         var timeline = new ArrayList<Timed>();
         var goalsByPlayer = new HashMap<String, Integer>();

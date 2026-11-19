@@ -1,4 +1,4 @@
-package it.fantalive.scoring_service;
+package it.fantalive.match_event_producer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

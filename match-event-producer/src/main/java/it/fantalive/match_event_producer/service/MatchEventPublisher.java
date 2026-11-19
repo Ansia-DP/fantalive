@@ -1,7 +1,7 @@
-package it.fantalive.scoring_service.service;
+package it.fantalive.match_event_producer.service;
 
-import it.fantalive.scoring_service.config.KafkaTopicConfig;
-import it.fantalive.scoring_service.event.MatchEvent;
+import it.fantalive.match_event_producer.config.KafkaTopicConfig;
+import it.fantalive.match_event_producer.event.MatchEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.core.KafkaTemplate;

@@ -1,4 +1,4 @@
-package it.fantalive.scoring_service.event;
+package it.fantalive.match_event_producer.event;
 
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;

@@ -1,8 +1,8 @@
-package it.fantalive.scoring_service.listener;
+package it.fantalive.match_event_producer.listener;
 
-import it.fantalive.scoring_service.event.MatchEvent;
-import it.fantalive.scoring_service.service.ScorePublisher;
-import it.fantalive.scoring_service.service.ScoringService;
+import it.fantalive.match_event_producer.event.MatchEvent;
+import it.fantalive.match_event_producer.service.ScorePublisher;
+import it.fantalive.match_event_producer.service.ScoringService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.annotation.KafkaListener;

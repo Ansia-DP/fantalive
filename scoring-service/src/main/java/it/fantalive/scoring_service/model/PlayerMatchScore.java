@@ -1,5 +1,6 @@
-package it.fantalive.scoring_service.model;
+package it.fantalive.match_event_producer.model;
 
+import it.fantalive.match_event_producer.domain.ScoringRules;
 import lombok.Getter;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -27,8 +28,7 @@ public class PlayerMatchScore {
 
     public PlayerMatchScore() {}
 
-    /** Fantavoto = voto + bonus/malus. Calcolato, non salvato su Mongo. */
     public Double getFantavoto() {
-        return rating == null ? null : rating + bonus;
+        return ScoringRules.fantavoto(rating, bonus);
     }
 }

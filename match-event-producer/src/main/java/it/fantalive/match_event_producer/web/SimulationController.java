@@ -1,9 +1,9 @@
-package it.fantalive.scoring_service.web;
+package it.fantalive.match_event_producer.web;
 
-import it.fantalive.scoring_service.event.GoalScored;
-import it.fantalive.scoring_service.event.MatchEvent;
-import it.fantalive.scoring_service.service.MatchEventPublisher;
-import it.fantalive.scoring_service.service.MatchSimulator;
+import it.fantalive.match_event_producer.event.GoalScored;
+import it.fantalive.match_event_producer.event.MatchEvent;
+import it.fantalive.match_event_producer.service.MatchEventPublisher;
+import it.fantalive.match_event_producer.service.MatchSimulator;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

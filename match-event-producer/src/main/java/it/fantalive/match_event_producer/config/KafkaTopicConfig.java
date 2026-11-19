@@ -1,4 +1,4 @@
-package it.fantalive.scoring_service.config;
+package it.fantalive.match_event_producer.config;
 
 import org.apache.kafka.clients.admin.NewTopic;
 import org.springframework.context.annotation.Bean;

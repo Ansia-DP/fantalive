@@ -1,7 +1,9 @@
-package it.fantalive.scoring_service.service;
+package it.fantalive.match_event_producer.service;
 
-import it.fantalive.scoring_service.event.*;
-import it.fantalive.scoring_service.model.PlayerMatchScore;
+import it.fantalive.match_event_producer.domain.ScoreChange;
+import it.fantalive.match_event_producer.domain.ScoringRules;
+import it.fantalive.match_event_producer.event.*;
+import it.fantalive.match_event_producer.model.PlayerMatchScore;
 import org.springframework.data.mongodb.core.FindAndModifyOptions;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
@@ -34,15 +36,7 @@ public class ScoringService {
                         .setOnInsert("playerName", event.playerName()),
                 PlayerMatchScore.class);
 
-        // 2. Cosa cambia, in base al tipo di evento
-        Update update = switch (event) {
-            case GoalScored g -> new Update().inc("goals", 1).inc("bonus", 3.0);
-            case AssistMade a -> new Update().inc("assists", 1).inc("bonus", 1.0);
-            case CardGiven c when c.card() == CardGiven.Card.YELLOW ->
-                    new Update().inc("yellowCards", 1).inc("bonus", -0.5);
-            case CardGiven c -> new Update().inc("redCards", 1).inc("bonus", -1.0);
-            case PlayerRated r -> new Update().set("rating", r.rating());
-        };
+        Update update = toUpdate(ScoringRules.changeFor(event));
         update.addToSet("processedEventIds", event.eventId());
 
         // 3. Applica solo se l'evento è nuovo, e restituisci il documento GIÀ aggiornato
@@ -58,5 +52,16 @@ public class ScoringService {
         }
         // Duplicato: niente da applicare, ma restituiamo lo stato attuale
         return new ApplyResult(false, mongoTemplate.findById(id, PlayerMatchScore.class));
+    }
+
+    private static Update toUpdate(ScoreChange change) {
+        var update = new Update();
+        if (change.goals() != 0)       update.inc("goals", change.goals());
+        if (change.assists() != 0)     update.inc("assists", change.assists());
+        if (change.yellowCards() != 0) update.inc("yellowCards", change.yellowCards());
+        if (change.redCards() != 0)    update.inc("redCards", change.redCards());
+        if (change.bonus() != 0)       update.inc("bonus", change.bonus());
+        if (change.rating() != null)   update.set("rating", change.rating());
+        return update;
     }
 }

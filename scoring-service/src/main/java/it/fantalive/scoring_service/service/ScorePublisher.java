@@ -1,8 +1,8 @@
-package it.fantalive.scoring_service.service;
+package it.fantalive.match_event_producer.service;
 
-import it.fantalive.scoring_service.config.KafkaTopicConfig;
-import it.fantalive.scoring_service.event.PlayerScoreUpdated;
-import it.fantalive.scoring_service.model.PlayerMatchScore;
+import it.fantalive.match_event_producer.config.KafkaTopicConfig;
+import it.fantalive.match_event_producer.event.PlayerScoreUpdated;
+import it.fantalive.match_event_producer.model.PlayerMatchScore;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
